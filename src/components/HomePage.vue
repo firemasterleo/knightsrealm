@@ -32,7 +32,7 @@
         h2 {
             font-size: 36px;
         font-weight: 900;
-        color: #352929;
+        color: #cdc5c5;
         }
     }
 
