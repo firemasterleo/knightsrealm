@@ -62,7 +62,7 @@
 
         align-items: center;
         justify-content: space-between;
-        background-color: #352929;
+        background-color: #b9b8b6;
         transition: all 0.25s ease-in;
         transition: background-color 0s ease-in;
 
@@ -70,7 +70,7 @@
             transition: opacity 0s ease-in;
 
             h1 {
-                color: #b9b8b6;
+                color: #352929;
 
             }
 
@@ -94,10 +94,11 @@
 
 
         }
-
-        h1 {
+.name
+         {
             margin-left: 1rem;
-            color: #b9b8b6;
+            color: #352929;
+            font-size: 16px;
 
         }
 
@@ -126,7 +127,7 @@
             .bar {
                 width: 20px;
                 height: 2px;
-                background-color: #b9b8b6;
+                background-color: #352929;
 
 
                 transition: transform 0.3s, opacity 0.3s;
@@ -134,16 +135,16 @@
             &.is-active {
                 
                 .bar:nth-child(1) {
-                    background-color: #b9b8b6;
+                    background-color: #352929;
 
                     transform: translateY(8px) rotate(45deg);
                   }
                 .bar:nth-child(2) {
-                    background-color: #b9b8b6;
+                    background-color: #352929;
 
                     opacity: 0; }
                 .bar:nth-child(3) {
-                    background-color: #b9b8b6;
+                    background-color: #352929;
 
                     transform: translateY(-6px) rotate(-45deg);
                 }
@@ -156,7 +157,7 @@
     @media (max-width: 425px) {
         .header {
             .name {
-                font-size: 8px;
+                font-size: 10px;
             }
             .logincart {
             .login {
