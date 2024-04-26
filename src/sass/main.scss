@@ -70,7 +70,7 @@
             transition: opacity 0s ease-in;
 
             h1 {
-                color: #352929;
+                color: #cdc5c5;
 
             }
 
@@ -97,7 +97,7 @@
 .name
          {
             margin-left: 1rem;
-            color: #352929;
+            color: #cdc5c5;
             font-size: 16px;
 
         }
@@ -127,7 +127,7 @@
             .bar {
                 width: 20px;
                 height: 2px;
-                background-color: #352929;
+                background-color: #cdc5c5;
 
 
                 transition: transform 0.3s, opacity 0.3s;
@@ -135,16 +135,16 @@
             &.is-active {
                 
                 .bar:nth-child(1) {
-                    background-color: #352929;
+                    background-color: #cdc5c5;
 
                     transform: translateY(8px) rotate(45deg);
                   }
                 .bar:nth-child(2) {
-                    background-color: #352929;
+                    background-color: #cdc5c5;
 
                     opacity: 0; }
                 .bar:nth-child(3) {
-                    background-color: #352929;
+                    background-color: #cdc5c5;
 
                     transform: translateY(-6px) rotate(-45deg);
                 }
