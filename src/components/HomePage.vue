@@ -27,12 +27,12 @@
         z-index: 15;
 
         width: 20rem;
-        // border: solid;
         margin-left: 1.5rem;
         top: 7rem;
         h2 {
             font-size: 36px;
         font-weight: 900;
+        color: #352929;
         }
     }
 
@@ -41,13 +41,13 @@
         width: 100vw;
         height: 100vh;
         z-index: 10;
-        // overflow: hidden ;
+        overflow: hidden;
         
         img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            opacity: 70%;
+            opacity: 85%;
             transform: scale(1.05) translateX(2%); /* Increase the scale to zoom in by 20% */
 
 
