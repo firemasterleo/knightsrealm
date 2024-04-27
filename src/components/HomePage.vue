@@ -87,7 +87,7 @@
     }
 
     .section3 {
-        overflow-x: auto;
+        // overflow-x: auto;
     }
 }
 
