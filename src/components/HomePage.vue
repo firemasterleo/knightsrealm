@@ -16,16 +16,38 @@
     </div>
         </div>
 
+        <div class="aboutus">
+            <p>
+                Join us in our quest for victory and fun,
+In the heart of KnightsRealm, where games are won. <br>
+A haven for enthusiasts to gather and play,
+In the realm of kings and queens, where rivals hold sway. <br>
+Here, pawns rise as heroes, while rooks stand tall,
+As knights traverse the board, answering the call.
+In friendly rivalry and spirited play,
+We forge bonds of camaraderie, day by day. <br>
+Amidst the clatter of pieces, joy fills the air,
+Celebrating the timeless art of chess, beyond compare."
+
+
+            </p>
+            <p>
+
+            </p>
+        </div>
+<!-- 
 <div class="section2">
     <div class="widget">
         <iframe
  style="width: 100%; height: 550px; overflow: hidden;"
  src="https://playpager.com/embed/chess/index.html"
  scrolling="no">
-</iframe>      </div>
+</iframe>    
+  </div>
 </div>
     <div class="widget">
-        <iframe src="https://liveblitz.chessbase.com" width="400" height="440"></iframe></div>
+        <iframe src="https://liveblitz.chessbase.com" width="400" height="440"></iframe>
+    </div> -->
 
     </div>
 </template>
@@ -37,7 +59,7 @@
 
     .section1 {
         position: relative;
-        border: solid blue;
+        // border: solid blue;
 
         .herocontent {
             position: absolute;
@@ -97,6 +119,13 @@
         position: relative;
         overflow-x: auto;
         border: solid red;
+    }
+
+
+    .aboutus {
+        background-color: #cdc5c5;
+        height: 40rem;
+        padding-inline: 1rem;
     }
 }
 
