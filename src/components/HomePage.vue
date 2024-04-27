@@ -18,7 +18,11 @@
 
 <div class="section2">
     <div class="widget">
-        <iframe src="https://fritz.chessbase.com" style="width:760px;height:480px"></iframe>     </div>
+        <iframe
+ style="width: 100%; height: 550px; overflow: hidden;"
+ src="https://playpager.com/embed/chess/index.html"
+ scrolling="no">
+</iframe>      </div>
 </div>
     <div class="widget">
         <iframe src="https://liveblitz.chessbase.com" width="400" height="440"></iframe></div>
