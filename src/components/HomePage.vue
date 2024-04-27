@@ -18,7 +18,7 @@
 
 <div class="section2">
     <div class="widget">
-        <iframe src="https://play.chessbase.com" style="width:760px;height:480px"></iframe>       </div>
+        <iframe src="https://fritz.chessbase.com" style="width:760px;height:480px"></iframe>     </div>
 </div>
     <div class="widget">
         <iframe src="https://liveblitz.chessbase.com" width="400" height="440"></iframe></div>
