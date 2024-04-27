@@ -14,6 +14,12 @@
 <img src="../assets/chessbackground2.png" alt="">
 </div>
 
+<div class="section2">
+    <div class="widget">
+        <iframe src="https://livetactics.chessbase.com" width="400" height="440"></iframe>
+    </div>
+</div>
+
     </div>
 </template>
 
