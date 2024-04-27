@@ -1,18 +1,21 @@
 <template>
     <div class="body">
-        <div class="herocontent">
-            <h2>
-                "Welcome to KnightsRealm, <br> A sanctuary Where minds meet in <br> harmony."
-            </h2>
+        <div class="section1">
+
+            <div class="herocontent">
+                <h2>
+                    "Welcome to KnightsRealm, <br> A sanctuary Where minds meet in <br> harmony."
+                </h2>
+            </div>
+            <div class="image1">
+    
+    <img src="../assets/chessbackground1.jpg" alt="">
+    </div>
+            <div class="image2">
+    
+    <img src="../assets/chessbackground2.png" alt="">
+    </div>
         </div>
-        <div class="image1">
-
-<img src="../assets/chessbackground1.jpg" alt="">
-</div>
-        <div class="image2">
-
-<img src="../assets/chessbackground2.png" alt="">
-</div>
 
 <div class="section2">
     <div class="widget">
