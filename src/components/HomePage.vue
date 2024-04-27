@@ -84,9 +84,6 @@
     .section2 {
         height: 40rem;
         background-color: #cdc5c5;
-        margin-top: -4rem;
-        // position: relative;
-        // z-index: 15;
     }
 
     .section3 {
