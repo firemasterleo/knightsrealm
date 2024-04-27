@@ -15,18 +15,19 @@
 </div>
 
 <div class="section2">
+
+</div>
+
+<div class="section3">
     <div class="widget">
         <iframe src="https://fritz.chessbase.com" style="width:760px;height:480px"></iframe>    </div>
 </div>
-    <div class="widget">
-        <iframe src="https://liveblitz.chessbase.com" width="400" height="440"></iframe></div>
-
     </div>
 </template>
 
 <style lang="scss" scoped>
 .body {
-    height: 100rem;
+    // height: 100rem;
     overflow-x: hidden;
 
     .herocontent {
@@ -78,6 +79,18 @@
 
 
         }
+    }
+
+    .section2 {
+        height: 40rem;
+        background-color: #cdc5c5;
+        margin-top: -4rem;
+        // position: relative;
+        // z-index: 15;
+    }
+
+    .section3 {
+        overflow-x: auto;
     }
 }
 
