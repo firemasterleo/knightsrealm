@@ -2,7 +2,7 @@
     <div class="body">
         <div class="herocontent">
             <h2>
-                "Welcome to our chess sanctuary, <br> Where minds <br> meet in <br> harmony."
+                "Welcome to KnightsRealm, <br> A sanctuary Where minds meet in <br> harmony."
             </h2>
         </div>
         <div class="image1">
@@ -26,13 +26,14 @@
         position: absolute;
         z-index: 15;
 
-        width: 20rem;
+        width: 22rem;
         margin-left: 1.5rem;
         top: 7rem;
         h2 {
-            font-size: 36px;
-        font-weight: 900;
+            font-size: 34px;
+        font-weight: 600;
         color: #cdc5c5;
+        font-family: "Fondamento", cursive;
         }
     }
 
