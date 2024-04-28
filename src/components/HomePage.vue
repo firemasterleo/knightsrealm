@@ -4,8 +4,12 @@
 
             <div class="herocontent">
                 <h2>
-                    "Welcome to KnightsRealm, <br> A sanctuary Where minds meet in <br> harmony."
+                    "Welcome to KnightsRealm, <br> A sanctuary Where minds  <br> meet in <br> harmony."
                 </h2>
+                <button>
+                    Membership
+                </button>
+
             </div>
             <div class="image1">
     
@@ -65,16 +69,39 @@ Celebrating the timeless art of chess, beyond compare."
             position: absolute;
             z-index: 15;
     
-            width: 22rem;
-            margin-left: 1.5rem;
-            top: 7rem;
+            width: 274px;
+            height: 315px;
+            // border: solid;
+            // margin-left: 1.5rem;
+            top: 32px;
+            left: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 23px;
             h2 {
+                // border: solid red;
+                height: 246px;
                 font-size: 34px;
             font-weight: 600;
+            line-height: 2.6rem;
+            word-spacing: 5px;
+            letter-spacing: 1.4px;
             color: #cdc5c5;
             font-family: "Fondamento", cursive;
-            }
         }
+        button {
+            width: 182px;
+            height: 46px;
+            border: none     ;
+            border-radius: 1rem;
+            font-size: 24px;
+            font-weight: bold;
+            font-family: "Fondamento", cursive;
+            letter-spacing: 1.4px;
+            background-color: #352929;
+            color: #cdc5c5;
+        }
+    }
     
         .image1 {
             position: absolute;
@@ -84,29 +111,38 @@ Celebrating the timeless art of chess, beyond compare."
             overflow: hidden;
             
             img {
-                width: 100%;
-                height: 100%;
+                position: relative;
+                bottom: 115px;
+                right: 41px;
+                width:  625px;
+                height: 999px;
+                // border: solid blue;
+                // height: 100%;
                 object-fit: cover;
                 opacity: 85%;
-                transform: scale(1.05) translateX(2%); /* Increase the scale to zoom in by 20% */
+                // transform: scale(1.05) translateX(2%); /* Increase the scale to zoom in by 20% */
     
     
             }
         }
     
         .image2 {
+            // position: relative;
             
             width: 100vw;
             height: 100vh;
             overflow: hidden;
             
             img {
-                width: 100%;
-                height: 100%;
-                margin-left: 4rem;
+                width: 1929px;
+                height: 1280px;
+                top: -115px;
+            left: -620px;
+            position: relative;
+
                 object-fit: cover;
                 opacity: 30%;
-                transform: scale(1.7) translateX(4%); /* Increase the scale to zoom in by 20% */
+                // transform: scale(1.7) translateX(4%); /* Increase the scale to zoom in by 20% */
     
     
     
