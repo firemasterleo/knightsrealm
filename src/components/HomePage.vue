@@ -20,7 +20,7 @@
     </div>
         </div>
 
-        <div class="aboutus">
+        <!-- <div class="aboutus">
             <p>
                 Join us in our quest for victory and fun,
 In the heart of KnightsRealm, where games are won. <br>
@@ -38,7 +38,7 @@ Celebrating the timeless art of chess, beyond compare."
             <p>
 
             </p>
-        </div>
+        </div> -->
 <!-- 
 <div class="section2">
     <div class="widget">
@@ -58,7 +58,7 @@ Celebrating the timeless art of chess, beyond compare."
 
 <style lang="scss" scoped>
 .body {
-    height: 100rem;
+    height: 200vh;
     overflow-x: hidden;
 
     .section1 {
@@ -127,16 +127,19 @@ Celebrating the timeless art of chess, beyond compare."
         }
     
         .image2 {
-            // position: relative;
+            // position: absolute;
+            // top: 0;
             
             width: 100vw;
-            height: 100vh;
+            height: 94vh;
             overflow: hidden;
+
             
+            // border: solid red;
             img {
                 width: 1929px;
                 height: 1280px;
-                top: -115px;
+                bottom: 115px;
             left: -620px;
             position: relative;
 
