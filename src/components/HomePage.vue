@@ -56,7 +56,7 @@ Celebrating the timeless art of chess, beyond compare."
     </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss" >
 .body {
     height: 200vh;
     overflow-x: hidden;
@@ -167,6 +167,119 @@ Celebrating the timeless art of chess, beyond compare."
         padding-inline: 1rem;
     }
 }
+
+
+@media (max-width: 380px) {
+
+    .body {
+
+        .section1 {
+          position: relative;
+        //   border: solid blue;
+    
+          .herocontent {
+              position: absolute;
+              z-index: 15;
+              border: solid blue;
+
+      
+              width: 274px;
+              height: 315px;
+            //   border: solid;
+              // margin-left: 1.5rem;
+              top: 32px;
+              left: 16px;
+              display: flex;
+              flex-direction: column;
+              gap: 23px;
+              h2 {
+                //   border: solid red;
+                  height: 246px;
+                  font-size: 30px;
+              font-weight: 600;
+              line-height: 2.6rem;
+              word-spacing: 5px;
+              letter-spacing: 1.4px;
+              color: #cdc5c5;
+              font-family: "Fondamento", cursive;
+          }
+          button {
+              width: 150px;
+              height: 46px;
+              border: none     ;
+              border-radius: 1rem;
+              font-size: 20px;
+              font-weight: bold;
+              font-family: "Fondamento", cursive;
+              letter-spacing: 1.4px;
+              background-color: #352929;
+              color: #cdc5c5;
+          }
+      }
+      
+          .image1 {
+              position: absolute;
+              width: 100vw;
+              height: 100vh;
+              z-index: 10;
+              overflow: hidden;
+            //   border: solid;
+              
+              img {
+                  position: relative;
+                  bottom: 115px;
+                  right: 41px;
+                  width:  625px;
+                  height: 999px;
+                  // border: solid blue;
+                  // height: 100%;
+                  object-fit: cover;
+                  opacity: 85%;
+                  transform: scale(0.86) translateX(-7%); /* Increase the scale to zoom in by 20% */
+      
+      
+              }
+          }
+      
+          .image2 {
+              // position: absolute;
+              // top: 0;
+              
+              width: 100vw;
+              height: 94vh;
+              overflow: hidden;
+    
+              
+              // border: solid red;
+              img {
+                  width: 1929px;
+                  height: 1280px;
+                  bottom: 115px;
+              left: -620px;
+              position: relative;
+    
+                  object-fit: cover;
+                  opacity: 30%;
+                  // transform: scale(1.7) translateX(4%); /* Increase the scale to zoom in by 20% */
+      
+      
+      
+              }
+          }
+      }
+    
+    
+      .section2 {
+          position: relative;
+          overflow-x: auto;
+          border: solid red;
+      }
+    
+    
+    }
+
+    }    
+    
 
 
     
